@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website- Ujjawal Soni</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="logo" src="Logo.png" alt="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Devloper</p>
+          <h1>Hi,I am <span>Ujjawal</span>...</h1>
+        </div>
+      </div>
+    </div>
+    <!-- FOR ABPUT -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="user.jpg" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+                I am a passionate college student currently pursuing a degree in computer science with a focus on web development. With a keen interest in technology and a drive for innovation, I am dedicated to honing my skills in coding and design. I thrive in collaborative environments, where I can contribute my creativity and problem-solving abilities to create impactful web solutions. Eager to delve deeper into the world of software development, I am committed to continuous learning and growth in this dynamic field.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span> Web app devlopment</li>
+                  <li><span>UI/UX</span> Designing Web/App interfaces</li>
+                  <li><span>App Development</span> Building ios/android apps</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022-Current</span> CSE</li>
+                  <li><span>2020-2022</span> Designing Web/App interfaces</li>
+                  <li><span>2019-2020</span> Building ios/android apps</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>Web Development</span> Web app devlopment</li>
+                  <li><span>UI/UX</span> Designing Web/App interfaces</li>
+                  <li><span>App Development</span> Building ios/android apps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- For services -->
+<div id="services">
+    <div class="conatiner">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro libero nulla modi architecto exercitationem totam. Atque tenetur odio, praesentium soluta quis vitae dolorem! Tempora dolor magnam aut mollitia ex.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro libero nulla modi architecto exercitationem totam. Atque tenetur odio, praesentium soluta quis vitae dolorem! Tempora dolor magnam aut mollitia ex.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro libero nulla modi architecto exercitationem totam. Atque tenetur odio, praesentium soluta quis vitae dolorem! Tempora dolor magnam aut mollitia ex.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>  
+    </div>
+</div>
+<!-- portfolio/my work -->
+<div id="portfolio">
+  <div class="container">
+    <div class="subtitle">My work</div>
+    <div class="work-list">
+      <div class="work">
+        <img src="user.jpg" alt="work1" >
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>DESCRIPTION- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem qui libero iusto nesciunt cumque tenetur veritatis quam, eos vitae laboriosam tempora, nobis dolore tempore similique vero aspernatur excepturi quia provident.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="user.jpg" alt="work2" >
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>DESCRIPTION- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem qui libero iusto nesciunt cumque tenetur veritatis quam, eos vitae laboriosam tempora, nobis dolore tempore similique vero aspernatur excepturi quia provident.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="user.jpg" alt="work3">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>DESCRIPTION- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem qui libero iusto nesciunt cumque tenetur veritatis quam, eos vitae laboriosam tempora, nobis dolore tempore similique vero aspernatur excepturi quia provident.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!-- -------------Contact-------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> ujjawaldream3@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 9644483390</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ujjawal-soni-867559258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/ujjawal_s0ni?igsh=MTIzcm1rc21ycml3eg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/ujjawal_s0ni03" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <a href="ujjawal_resume.pdf" class="btn btn2" target="_blank">Downlad Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" id="" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy Ujjawal Soni</p>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/d101923beb.js" crossorigin="anonymous"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwWRfh34YElP7CXodFX8E4w5agQKcnXlRt-WP28rco_3C_rCsuBt9IMwPL583aG9Z93/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg=document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully!!"
+        setTimeout(function() {
+          msg.innerHTML=""
+        }, 5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="project.js"></script>
+</body>
+</html>
